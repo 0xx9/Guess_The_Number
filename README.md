@@ -1,6 +1,8 @@
 # Guess_The_Number
 Guess The number simple game Programmed used JavaScript !
 
+![Guess The Number](https://i.ibb.co/n089h8X/guess-the-number.png)
+
 ## Description
 
 "Guess The Number" is a simple number guessing game written in Python. The computer generates a random number within a specified range, and the player needs to guess the correct number based on the hints provided by the game.

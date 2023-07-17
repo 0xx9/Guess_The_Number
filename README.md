@@ -1,7 +1,8 @@
 # Guess_The_Number
 Guess The number simple game Programmed used JavaScript !
 ## Photo of Mobile Version 
-![Guess The Number]([https://i.ibb.co/n089h8X/guess-the-number.png)](https://www.linkpicture.com/q/Capture_62.png)
+
+![Guess The Number]([https://www.linkpicture.com/q/Capture_62.png)]
 
 ## Description
 

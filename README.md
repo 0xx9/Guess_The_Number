@@ -1,6 +1,12 @@
 # Guess_The_Number
 Guess The number simple game Programmed used JavaScript !
+
+## Try It Out!
+You can try the game by visiting the following link: [Guess The Number](https://0xx9.github.io/Guess_The_Number/)
+
+
 ## Photo of Mobile Version 
+
 
 ![Guess The Number](https://www.linkpicture.com/q/Capture_62.png)
 

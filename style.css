@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  color: #eee;
+  background-color: rgb(14, 1, 0);
+  /* background-color: #60b347; */
+}
+
+/* LAYOUT */
+header {
+  background-color: rgb(31, 3, 0);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  font-size: 15px;
+}
+header .number {
+  position: absolute;
+  background-color: white;
+  left: 50%;
+  top: 80px;
+  font-size: 30px;
+  border-top: #eee 5px solid;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+  background-color: rgb(65, 5, 0);
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 10px 10px;
+  -webkit-border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  -ms-border-radius: 0 0 10px 10px;
+  -o-border-radius: 0 0 10px 10px;
+  margin-top: 20px;
+}
+header button {
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  border: white 2px solid;
+  color: white;
+  background-color: #eeeeee3e;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+@media (max-width: 767px) {
+  header {
+    font-size: 10px;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+main {
+  margin-top: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  border-top: #eee 2px solid;
+  padding: 20px;
+}
+main section {
+  margin-bottom: 20px;
+}
+main .left {
+  flex-basis: 50%;
+}
+
+main .left input {
+  width: calc(50%);
+  background-color: transparent;
+  border: 2px solid white;
+  outline: none;
+  height: 50px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  border-style: solid;
+  border-color: white white transparent white;
+  border-width: 2px;
+  color: white;
+}
+main .left button {
+  width: 50%;
+  height: 50px;
+  background: transparent;
+  color: white;
+  border: #eee 2px solid;
+}
+main .right {
+  font-size: 15px;
+}
+
+main .right p {
+  margin: 20px;
+}
+
+main .right .message {
+  font-size: 25px;
+  background-color: rgb(65, 5, 0);
+  width: 425px;
+}

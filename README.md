@@ -2,7 +2,7 @@
 Guess The number simple game Programmed used JavaScript !
 ## Photo of Mobile Version 
 
-![Guess The Number]([https://www.linkpicture.com/q/Capture_62.png)]
+![Guess The Number](https://www.linkpicture.com/q/Capture_62.png)
 
 ## Description
 

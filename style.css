@@ -121,7 +121,8 @@ main .right p {
 }
 
 main .right .message {
-  font-size: 25px;
+  font-size: 20px;
   background-color: rgb(65, 5, 0);
   width: fit-content;
+  text-align: center;
 }

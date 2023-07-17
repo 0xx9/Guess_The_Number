@@ -123,5 +123,5 @@ main .right p {
 main .right .message {
   font-size: 25px;
   background-color: rgb(65, 5, 0);
-  width: 425px;
+  width: fit-content;
 }
